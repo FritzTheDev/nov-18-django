@@ -13,4 +13,4 @@ class Account(Model):
     created_on = DateTimeField(auto_now_add=True)
     
     def __str__(self):
-        return self.account_name
+        return f"{self.owner.first_name}'s {self.account_name}"
