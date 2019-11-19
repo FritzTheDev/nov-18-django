@@ -8,3 +8,4 @@ product_type_choices = (
 
 class Product(Model):
     product_type = CharField(max_length=3, choices=product_type_choices)
+    product_description = CharField(max_length=1000)
