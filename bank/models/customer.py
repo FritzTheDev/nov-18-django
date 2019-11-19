@@ -5,4 +5,3 @@ class Customer(Model):
     customer_since = DateTimeField(auto_now_add=True)
     first_name = CharField(max_length=15)
     last_name = CharField(max_length=20)
-    
