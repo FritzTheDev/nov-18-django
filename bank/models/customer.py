@@ -5,3 +5,6 @@ class Customer(Model):
     customer_since = DateTimeField(auto_now_add=True)
     first_name = CharField(max_length=15)
     last_name = CharField(max_length=20)
+
+    def __str__(self):
+        return f"{self.first_name} {self.last_name}"
