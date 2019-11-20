@@ -1,0 +1,3 @@
+tasks:
+- command: pipenv install
+- command: pipenv shell
